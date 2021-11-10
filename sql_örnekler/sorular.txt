@@ -1,0 +1,19 @@
+﻿1-Elazığ veya Malatyalı tüm öğrencileri getiriniz.
+
+2-Bölüm adı 'Bil. Müh.' olan öğrencilerin tüm bilgilerini getiriniz 
+
+3-'Çev. Müh.' isimli bölümde okuyan Elazığlı öğrencilerin adi ve soyadi blgilerini isme göre sıralı getiriniz
+
+4-Doğan Gedikli isimli öğretmenin vermiş olduğu derslerin kodlarını, isimlerini ve kredilerini getiriniz
+
+5-Ders notu girilmemiş (NULL) olan öğrencilerin ve dersinin isimlerini getiriniz. ( dersNotu = NULL şartı yazılmalı)
+
+6-Soyadı 'Şa' ile başlayan veya 'ay' ile biten öğrencilerin almış olduğu dersleri ve bunlara ait notlarını getiriniz.
+
+7-Ders notu 4 olan öğrencilerin ders adı ve tüm öğrenci bilgilerini getiriniz ( SELECT D.dadi,O.* FROM .. ile yapılır)
+
+8-Bölüm adı 'End. Müh.' olan öğrencilerin isim soyisim, aldıkları derslerin adları ve bu dersten aldıkları notları getiriniz
+
+9-Selami Durgun adlı öğretmenin vermiş olduğu dersleri alan öğrencilerin aldığı dersin adını, kendi numarasını, ismini, soyismini ve bu dersten aldığı notu getiriniz
+
+10-Verdikleri dersten 4 tam puan alan öğrencisi bulunan öğretmenlerin isimlerini tekrarsız bir biçimde sıralı olarak getiriniz. (DISTINCT ile)

@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Örnek Bir Üniversite Veritabaný</title>
+		<style>
+		body {
+			padding-left:10px;
+		}
+		</style>
+		<link href="bootstrap.css" rel="stylesheet"> 
+		
+	</head>
+	
+	<body>
+		<h3>VTYS SELECT SORGULARINA ÇALIÞMAK ÝÇÝN ÖRNEK TABLOLAR</h3>
+		<blockquote> 
+			<p style="font-size:15px">Aþaðýda üniversiteye ait basit bir veritabaný örneði verilmiþtir. Aþaðýdaki tablolarý oluþturmak için gerekli SQL sorgularýna <a href="mini-uni-veritabani.sql"> <b>bu linkten</b> </a> eriþebilirsiniz. Resmin aþaðýsýnda örnek sorular mevcuttur. Bu örneklerde istenen sorgularý yazmaya çalýþmanýz tavsiye edilir.</p>
+			<footer>Bu sayfadaki gerekli tüm dosyalarý (resim, sorular ve sql dosyasý) indirmek için <a href="veritabani_select_pratik.rar"><b> týklayýnýz </b></a>
+		</footer>
+		</blockquote>
+
+		
+		
+		<img src="tablolar.png" />
+		
+		<h3>Örnek Sorular</h3>
+		<ol>
+			<li>Elazýð veya Malatyalý tüm öðrencileri getiriniz.</li>
+
+			<li>Bölüm adý 'Bil. Müh.' olan öðrencilerin tüm bilgilerini getiriniz </li>
+
+			<li>'Çev. Müh.' isimli bölümde okuyan Elazýðlý öðrencilerin adi ve soyadi blgilerini isme göre sýralý getiriniz</li>
+
+			<li>Doðan Gedikli isimli öðretmenin vermiþ olduðu derslerin kodlarýný, isimlerini ve kredilerini getiriniz</li>
+
+			<li>Ders notu girilmemiþ (NULL) olan öðrencilerin ve dersinin isimlerini getiriniz. ( dersNotu = NULL þartý yazýlmalý)</li>
+
+			<li>Soyadý 'Þa' ile baþlayan veya 'ay' ile biten öðrencilerin almýþ olduðu dersleri ve bunlara ait notlarýný getiriniz.</li>
+
+			<li>Ders notu 4 olan öðrencilerin ders adý ve tüm öðrenci bilgilerini getiriniz ( SELECT D.dadi,O.* FROM .. ile yapýlýr)</li>
+
+			<li>Bölüm adý 'End. Müh.' olan öðrencilerin isim soyisim, aldýklarý derslerin adlarý ve bu dersten aldýklarý notlarý getiriniz</li>
+
+			<li>Selami Durgun adlý öðretmenin vermiþ olduðu dersleri alan öðrencilerin aldýðý dersin adýný, kendi numarasýný, ismini, soyismini ve bu dersten aldýðý notu getiriniz</li>
+
+			<li>Verdikleri dersten 4 tam puan alan öðrencisi bulunan öðretmenlerin isimlerini tekrarsýz bir biçimde sýralý olarak getiriniz. (DISTINCT ile)</li>
+		</ol>
+	</body>
+</html>
